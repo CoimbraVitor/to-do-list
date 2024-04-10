@@ -1,0 +1,70 @@
+.todo-list {
+  /* Container styles */
+  display: flex;
+  flex-direction: column;
+  width: 400px; /* Adjust width as needed */
+  margin: 0 auto; /* Center the list horizontally */
+  padding: 20px;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+  background-color: #fff;
+}
+
+.todo-list h1 {
+  /* Title styles */
+  text-align: center;
+  margin-bottom: 15px;
+}
+
+.todo-list input {
+  /* Input field styles */
+  padding: 10px;
+  border: 1px solid #ac1717;
+  border-radius: 3px;
+  width: 100%; /* Expand to full width */
+  margin-bottom: 10px;
+}
+
+.todo-list button {
+  /* Button styles */
+  padding: 5px 10px;
+  border: none;
+  border-radius: 3px;
+  cursor: pointer;
+  margin-right: 5px;
+}
+
+.todo-list button:hover {
+  /* Button hover effect */
+  background-color: #eee;
+}
+
+.todo-list ol {
+  /* List styles */
+  padding: 0;
+  list-style: none;
+}
+
+.todo-list li {
+  /* Task item styles */
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px;
+  border-bottom: 1px solid #ddd;
+}
+
+.todo-list li span {
+  /* Task text styles */
+  flex: 1; /* Expand text to fill remaining space */
+}
+
+.todo-list li button.delete {
+  /* Delete button styles (optional) */
+  color: red;
+}
+
+.todo-list li button.move {
+  /* Up/Down button styles (optional) */
+  font-size: 12px;
+}
